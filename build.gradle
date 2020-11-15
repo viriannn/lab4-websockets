@@ -1,0 +1,13 @@
+apply plugin: "java"
+
+repositories {
+	mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	compile 'org.glassfish.tyrus:tyrus-container-grizzly-server:1.17'
+    testCompile 'junit:junit:4.11'
+}
