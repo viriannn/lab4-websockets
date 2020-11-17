@@ -18,6 +18,7 @@ The `onChat` test must:
 * Check the client receives a DOCTOR question about your mental health (see examples in `Eliza.java`). 
 
 You must remove `@Ignore` and place up to 6 lines of code to fulfil the task. 
+The location of `Complete Me!!` is just a hint, but there are many possible solutions and locations.
 `ElizaServerTest.java` includes the test `onOpen` that will provide you insights. 
 
 ## Secondary goals (:gift:)
