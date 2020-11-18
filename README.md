@@ -25,9 +25,12 @@ The location of `Complete Me!!` is just a hint, but there are many possible solu
 
 Solutions must meet primary goals too. 
 
-Proposed:
+In progress:
 
 - Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation
+
+Proposed:
+
 - Support STOMP in the server side and create a small client that uses it
 - Support SockJS in the server side and show that xhr-polling can be used as transport instead of WebSocket when needed ([additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-fallback-sockjs-client))
 - Turn the DOCTOR into a client of the server, so, the server acts only as message broker.
@@ -40,4 +43,4 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 
 | NIA    | User name | Repo | Build Status | Improvement | Score
 |--------|-----------|------|--------------|-------------|--------
-|        |           |      |              |             |
+| 760704 |[Álvaro García](https://github.com/Alvarogd6)|[Alvarogd6/lab4-websockets](https://github.com/Alvarogd6/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/Alvarogd6/lab4-websockets.svg?branch=test)|Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation|
