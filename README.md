@@ -28,12 +28,12 @@ Solutions must meet primary goals too.
 In progress:
 
 - Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation
+- Turn the DOCTOR into a client of the server, so, the server acts only as message broker.
 
 Proposed:
 
 - Support STOMP in the server side and create a small client that uses it
 - Support SockJS in the server side and show that xhr-polling can be used as transport instead of WebSocket when needed ([additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-fallback-sockjs-client))
-- Turn the DOCTOR into a client of the server, so, the server acts only as message broker.
 - Use the server as a relay server to connect to an external message broker (e.g. RabbitMQ, [additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-stomp-handle-broker-relay)) 
 
 Note: unless the goal specifies o disallows a specific framework you are free to replace the framework used in the original implementation with a different framework.
@@ -44,3 +44,4 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | NIA    | User name | Repo | Build Status | Improvement | Score
 |--------|-----------|------|--------------|-------------|--------
 | 760704 |[Álvaro García](https://github.com/Alvarogd6)|[Alvarogd6/lab4-websockets](https://github.com/Alvarogd6/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/Alvarogd6/lab4-websockets.svg?branch=test)|Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation|
+| 758906 |[Raúl Javierre](https://github.com/rauljavierre)|[rauljavierre/lab4-websockets](https://github.com/rauljavierre/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/rauljavierre/lab4-websockets.svg?branch=test)|Turn the DOCTOR into a client of the server, so, the server acts only as message broker|
