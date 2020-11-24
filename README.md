@@ -49,3 +49,5 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 758803 |[Daniel González](https://github.com/Uncastellum/) |[Uncastellum/lab4-websockets](https://github.com/Uncastellum/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/Uncastellum/lab4-websockets.svg?branch=test)| |                      |
 | 757715 |[Hayk kocharyan](https://github.com/hayk99) |[hayk99/lab4-websockets](https://github.com/hayk99/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/hayk99/lab4-websockets.svg?branch=test)| |                      |
 | 758267 |[Pedro Allué](https://github.com/piter1902) |[piter1902/lab4-websockets](https://github.com/piter1902/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/piter1902/lab4-websockets.svg?branch=test)| |                      |
+| 766685 |[Enrique Ruiz Flores](https://github.com/TheRealFreeman)|[TheRealFreeman/lab4-websockets](https://github.com/TheRealFreeman/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/TheRealFreeman/lab4-websockets.svg?branch=test)| |                      |
+
