@@ -39,4 +39,4 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 
 | NIA    | User name | Repo | Build Status | Improvement | Score
 |--------|-----------|------|--------------|-------------|--------
-|        |           |      |              |             |
+| 756123 |[Rogelio Lacruz](https://github.com/RogorStuff)|[RogorStuff/lab4-websockets](https://github.com/RogorStuff/lab4-websockets/tree/test) |[![Build Status](https://travis-ci.org/RogorStuff/lab4-websockets.svg)](https://travis-ci.org/RogorStuff/lab4-websockets)| |                      |
