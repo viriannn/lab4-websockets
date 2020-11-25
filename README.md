@@ -18,18 +18,22 @@ The `onChat` test must:
 * Check the client receives a DOCTOR question about your mental health (see examples in `Eliza.java`). 
 
 You must remove `@Ignore` and place up to 6 lines of code to fulfil the task. 
+The location of `Complete Me!!` is just a hint, but there are many possible solutions and locations.
 `ElizaServerTest.java` includes the test `onOpen` that will provide you insights. 
 
 ## Secondary goals (:gift:)
 
 Solutions must meet primary goals too. 
 
-Proposed:
+In progress:
 
 - Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation
+- Turn the DOCTOR into a client of the server, so, the server acts only as message broker.
+
+Proposed:
+
 - Support STOMP in the server side and create a small client that uses it
 - Support SockJS in the server side and show that xhr-polling can be used as transport instead of WebSocket when needed ([additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-fallback-sockjs-client))
-- Turn the DOCTOR into a client of the server, so, the server acts only as message broker.
 - Use the server as a relay server to connect to an external message broker (e.g. RabbitMQ, [additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-stomp-handle-broker-relay)) 
 
 Note: unless the goal specifies o disallows a specific framework you are free to replace the framework used in the original implementation with a different framework.
@@ -49,4 +53,3 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 755742 |[Juan José Tambo](https://github.com/jtambo99) |[jtambo99/lab4-websockets](https://github.com/jtambo99/lab4-websockets/tree/test)      |![Build Status](https://www.travis-ci.com/jtambo99/lab4-websockets.svg?branch=test)| |                      |
 | 761319 |[Marcos Nuez](https://github.com/Markles01) |[Markles01/lab4-websockets](https://github.com/Markles01/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/Markles01/lab4-websockets.svg?branch=test)| |                      |
 | 766685 |[Enrique Ruiz Flores](https://github.com/TheRealFreeman)|[TheRealFreeman/lab4-websockets](https://github.com/TheRealFreeman/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/TheRealFreeman/lab4-websockets.svg?branch=test)| |                      |
-| 740491 |[José Ignacio Hernández](https://github.com/740491)|[740491/lab4-websockets](https://github.com/740491/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/740491/lab4-websockets.svg?branch=test)|  |
