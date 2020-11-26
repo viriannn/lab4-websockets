@@ -64,8 +64,6 @@ public class ElizaServerTest {
 		ClientManager client = ClientManager.createClient();
 		client.connectToServer(new ElizaEndpointToComplete(list), configuration, new URI("ws://localhost:8025/websockets/eliza"));
 		// COMPLETE ME!!
-		// COMPLETE ME!!
-		// COMPLETE ME!!
 	}
 
 	@After
