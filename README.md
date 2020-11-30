@@ -28,10 +28,7 @@ Solutions must meet primary goals too.
 Done:
 
 - [Turn the DOCTOR into a client of the server, so, the server acts only as message broker](https://github.com/rauljavierre/lab4-websockets/tree/test). Raul Javierre ha comprobado que cuando el servidor actua como un message broker elaborar un mini subprotocolo ayuda a la hora de organizar la comunicación y facilitar la escalabilidad :gift:
-
-In progress:
-
-- Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation
+- [Replace the current implementation (Eclipse Grizzly) by a Spring Websockets implementation](https://github.com/Alvarogd6/lab4-websockets/tree/gift). Alvaro García ha podido migrar la plataforma del servidor de Grizzly a Spring usando un TextWebSocketHandler. Lección aprendida, cuando hay un marco compartido bien definido (ver [JSR 356](https://jcp.org/en/jsr/detail?id=356)) las implementaciones pueden parecer muy diferentes, pero enseguida se ve qué se relaciona con qué. : gift: 
 
 Proposed:
 
@@ -46,7 +43,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 
 | NIA    | User name | Repo | Build Status | Improvement | Score
 |--------|-----------|------|--------------|-------------|--------
-| 760704 |[Álvaro García](https://github.com/Alvarogd6)|[Alvarogd6/lab4-websockets](https://github.com/Alvarogd6/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/Alvarogd6/lab4-websockets.svg?branch=test)|Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation|
+| 760704 |[Álvaro García](https://github.com/Alvarogd6)|[Alvarogd6/lab4-websockets](https://github.com/Alvarogd6/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/Alvarogd6/lab4-websockets.svg?branch=test)|Replace the current implementation (Eclipse Grizzly) by a [Spring Websockets](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket) implementation| :gift:
 | 758906 |[Raúl Javierre](https://github.com/rauljavierre)|[rauljavierre/lab4-websockets](https://github.com/rauljavierre/lab4-websockets/tree/test)|![Build Status](https://travis-ci.com/rauljavierre/lab4-websockets.svg?branch=test)|Turn the DOCTOR into a client of the server, so, the server acts only as message broker| :gift:
 | 757153 |[Fran Morés](https://github.com/Fran-sw) |[Fran-sw/lab4-websockets](https://github.com/Fran-sw/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/Fran-sw/lab4-websockets.svg?branch=test)| |                      |
 | 758803 |[Daniel González](https://github.com/Uncastellum/) |[Uncastellum/lab4-websockets](https://github.com/Uncastellum/lab4-websockets/tree/test)      |![Build Status](https://travis-ci.com/Uncastellum/lab4-websockets.svg?branch=test)| |                      |
